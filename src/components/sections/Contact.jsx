@@ -133,7 +133,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_0kulk8s", // updated Service ID
-        "template_l7lkv3a",
+        "template_d3etdx8",
         form.current,
         "ZuCkPhqrP0SKAznWW"
       )
