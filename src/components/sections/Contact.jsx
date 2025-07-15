@@ -134,7 +134,7 @@ const Contact = () => {
       .sendForm(
         "service_0kulk8s", // updated Service ID
         "template_d3etdx8",
-        form.current,
+        form.current.reset(),
         "Y37FhOmJ9qVvb3Cx_"
       )
       .then(
